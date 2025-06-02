@@ -17,36 +17,72 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.949" />
+        app:layout_constraintVertical_bias="0.931" />
+
+
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="334dp"
+        android:layout_height="156dp"
+        android:background="@null"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/banner_champions"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="197dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="333dp"
+        android:layout_height="151dp"
+        android:background="@null"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/banner_premier"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="400dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="329dp"
+        android:layout_height="156dp"
+        android:background="@null"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/banner_team"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="599dp" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="450dp"
+        android:layout_height="156dp"
+        android:background="#182584"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="-13dp" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="449dp"
+        android:layout_height="96dp"
+        android:background="#2C399A"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-3dp" />
 
     <SearchView
         android:layout_width="268dp"
         android:layout_height="35dp"
-        tools:layout_editor_absoluteX="79dp"
-        tools:layout_editor_absoluteY="50dp" />
+        android:background="#FFFDFD"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="32dp" />
 
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="379dp"
-        android:layout_height="130dp"
-        app:srcCompat="@drawable/banner_champions"
-        tools:layout_editor_absoluteX="24dp"
-        tools:layout_editor_absoluteY="214dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="379dp"
-        android:layout_height="130dp"
-        app:srcCompat="@drawable/banner_premier"
-        tools:layout_editor_absoluteX="24dp"
-        tools:layout_editor_absoluteY="362dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton3"
-        android:layout_width="379dp"
-        android:layout_height="130dp"
-        app:srcCompat="@drawable/banner_team"
-        tools:layout_editor_absoluteX="24dp"
-        tools:layout_editor_absoluteY="505dp" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ultimos resultados"
+        android:textColor="#FFF8F8"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="710dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
